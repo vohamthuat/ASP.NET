@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Code\\C#\\Test\\ASP.NET\\WebDemo\\WebDemo\\WebDemo.csproj": {}
+    "E:\\Code\\C#\\Test\\ASP.NET\\.vs\\WebDemo\\WebDemo\\WebDemo.csproj": {}
   },
   "projects": {
-    "E:\\Code\\C#\\Test\\ASP.NET\\WebDemo\\WebDemo\\WebDemo.csproj": {
+    "E:\\Code\\C#\\Test\\ASP.NET\\.vs\\WebDemo\\WebDemo\\WebDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\C#\\Test\\ASP.NET\\WebDemo\\WebDemo\\WebDemo.csproj",
+        "projectUniqueName": "E:\\Code\\C#\\Test\\ASP.NET\\.vs\\WebDemo\\WebDemo\\WebDemo.csproj",
         "projectName": "WebDemo",
-        "projectPath": "E:\\Code\\C#\\Test\\ASP.NET\\WebDemo\\WebDemo\\WebDemo.csproj",
+        "projectPath": "E:\\Code\\C#\\Test\\ASP.NET\\.vs\\WebDemo\\WebDemo\\WebDemo.csproj",
         "packagesPath": "C:\\Users\\ICE\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\C#\\Test\\ASP.NET\\WebDemo\\WebDemo\\obj\\",
+        "outputPath": "E:\\Code\\C#\\Test\\ASP.NET\\.vs\\WebDemo\\WebDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

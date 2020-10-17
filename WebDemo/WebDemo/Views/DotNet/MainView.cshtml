@@ -1,0 +1,49 @@
+﻿@model WebDemo.Models.Student
+<html>
+<head>
+    <title>DotNet Demo</title>
+</head>
+<body>
+
+    <h1 class="bg-primary">WELCOME TO DOTNET DEMO</h1>
+
+    <p>Hello World!</p>
+
+    @using (Html.BeginForm("LoadStudent", "DotNet"))
+    {
+
+        <input type="submit" value="LoadStudent" />
+
+    }
+
+    @if (Model!=null)
+    {
+        <div>
+            <h4>Student</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.ID)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.ID)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.FullName)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.FullName)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.DoB)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.DoB)
+                </dd>
+            </dl>
+        </div>
+    }
+
+</body>
+</html>
+
